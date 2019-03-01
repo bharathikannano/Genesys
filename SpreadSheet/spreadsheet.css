@@ -1,0 +1,21 @@
+.oncellClick{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: none;
+}
+
+.oncellClick:focus{
+    border: none;
+}
+table{
+    border: none;
+}
+
+tr{
+    border: 1px solid black;
+}
+
+input.oncellClick:focus {
+    outline-width: 0;
+}
